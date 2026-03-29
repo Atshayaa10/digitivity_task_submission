@@ -33,7 +33,7 @@ This step ensures better data quality and improves model performance.
 
 ###  Visualization 1: Class Distribution
 
-A count plot was used to understand the distribution of diabetic and non-diabetic cases.
+The dataset is slightly imbalanced, with a higher number of non-diabetic cases. This imbalance can influence model performance and may lead to bias toward the majority class.
 <img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/de91f51b-286c-4b0c-bfc4-7bfd786e15d6" />
 
 **Insight:**
@@ -43,7 +43,7 @@ The dataset is slightly imbalanced, with more non-diabetic cases.
 
 ###  Visualization 2: Correlation Heatmap
 
-A heatmap was used to analyze relationships between features.
+Glucose shows the strongest correlation with diabetes (~0.49), making it the most influential feature. BMI and Age also contribute moderately, indicating their importance in prediction.
 <img width="932" height="849" alt="image" src="https://github.com/user-attachments/assets/d968fd26-a0db-4788-856d-b6111f653a5e" />
 
 **Insight:**
@@ -53,7 +53,7 @@ Glucose has the strongest correlation with diabetes, followed by BMI and Age.
 
 ###  Visualization 3: Glucose Distribution
 
-A histogram was used to observe how glucose values are distributed.
+The distribution is slightly right-skewed, indicating that some patients have significantly higher glucose levels, which may increase diabetes risk.
 <img width="716" height="569" alt="image" src="https://github.com/user-attachments/assets/1bf11fc3-451f-47ed-ada8-a77901c2a681" />
 
 **Insight:**

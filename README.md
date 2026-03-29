@@ -21,12 +21,12 @@ This dataset is widely used for healthcare prediction tasks and contains relevan
 
 ##  Data Preprocessing
 
-* Checked for missing values
-* Identified invalid zero values in columns like Glucose, BMI, and BloodPressure
-* Replaced these values with the mean of respective columns
+- Checked for missing values in the dataset and confirmed there were no null entries  
+- Identified medically invalid zero values in columns such as Glucose, BloodPressure, SkinThickness, Insulin, and BMI  
+- Replaced these invalid zero values with the mean of their respective columns to maintain data consistency  
+- Retained zero values in the Pregnancies column, as they represent valid cases (indicating no pregnancies)  
 
-This step ensures better data quality and improves model performance.
-
+These preprocessing steps improved the overall data quality and ensured more reliable model performance.
 ---
 
 ##  Exploratory Data Analysis

@@ -45,6 +45,7 @@ The dataset is slightly imbalanced, with more non-diabetic cases.
 ###  Visualization 2: Correlation Heatmap
 
 Glucose shows the strongest correlation with diabetes (~0.49), making it the most influential feature. BMI and Age also contribute moderately, indicating their importance in prediction.
+
 <img width="932" height="849" alt="image" src="https://github.com/user-attachments/assets/d968fd26-a0db-4788-856d-b6111f653a5e" />
 
 **Insight:**
@@ -55,6 +56,7 @@ Glucose has the strongest correlation with diabetes, followed by BMI and Age.
 ###  Visualization 3: Glucose Distribution
 
 The distribution is slightly right-skewed, indicating that some patients have significantly higher glucose levels, which may increase diabetes risk.
+
 <img width="716" height="569" alt="image" src="https://github.com/user-attachments/assets/1bf11fc3-451f-47ed-ada8-a77901c2a681" />
 
 **Insight:**

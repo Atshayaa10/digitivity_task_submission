@@ -11,6 +11,7 @@ The goal is to demonstrate data preprocessing, exploratory data analysis, and pr
 ##  Dataset
 
 The dataset used is the Pima Indians Diabetes Dataset.
+Dataset Link : https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
 
 ###  Why this dataset?
 

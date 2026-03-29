@@ -85,9 +85,10 @@ The classification report further evaluates the model using precision, recall, a
 
 ##  Results & Conclusion
 
-* Glucose was identified as the most important feature influencing diabetes prediction
-* Logistic Regression performed slightly better, suggesting linear relationships in the data
-* The model provides reliable predictions without overfitting
+- The model achieved an accuracy of around 76%, which is considered good for this dataset given its size and real-world complexity  
+- Glucose was identified as the most important feature influencing diabetes prediction  
+- Logistic Regression performed slightly better, suggesting linear relationships in the data  
+- The model provides reliable predictions without overfitting 
 
 This solution can be extended to real-world healthcare systems for early diagnosis and better decision-making.
 

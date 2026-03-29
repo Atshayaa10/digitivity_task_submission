@@ -34,6 +34,7 @@ This step ensures better data quality and improves model performance.
 ###  Visualization 1: Class Distribution
 
 The dataset is slightly imbalanced, with a higher number of non-diabetic cases. This imbalance can influence model performance and may lead to bias toward the majority class.
+
 <img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/de91f51b-286c-4b0c-bfc4-7bfd786e15d6" />
 
 **Insight:**

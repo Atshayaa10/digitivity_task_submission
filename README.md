@@ -73,12 +73,13 @@ These models were trained using a train-test split approach.
 ---
 
 ##  Model Output
+The Logistic Regression model achieved an accuracy of approximately 76%, while the Random Forest model achieved around 74–75%. This level of accuracy is considered good for this dataset because it is relatively small, contains real-world medical data, and has slight class imbalance, making perfect prediction difficult. The slightly better performance of Logistic Regression suggests that the relationship between the input features and the target variable is mostly linear.
 
-* Logistic Regression Accuracy: ~76%
-* Random Forest Accuracy: ~74–75%
+The confusion matrix [[83, 16], [20, 35]] provides a deeper understanding of model performance. The model correctly identified 83 non-diabetic patients (true negatives) and 35 diabetic patients (true positives). However, it incorrectly classified 16 non-diabetic patients as diabetic (false positives) and missed 20 diabetic patients (false negatives). In a healthcare context, reducing false negatives is especially important, as missing diabetic cases can delay diagnosis and treatment.
+
+The classification report further evaluates the model using precision, recall, and F1-score. For non-diabetic cases (class 0), the model performs well with a precision of 0.81 and recall of 0.84. For diabetic cases (class 1), the precision is 0.69 and recall is 0.64, indicating that the model is slightly less effective at identifying diabetic patients. Overall, the model demonstrates balanced and reliable performance, but improving recall for diabetic cases would enhance its effectiveness in real-world healthcare applications.
 <img width="914" height="319" alt="image" src="https://github.com/user-attachments/assets/73e2b365-c7d7-4910-bec2-5be8c36c1e05" />
 
-Additional evaluation metrics such as confusion matrix and classification report were used to assess model performance.
 
 ---
 
